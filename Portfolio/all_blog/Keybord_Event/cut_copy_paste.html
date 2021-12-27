@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cut Copy Paste</title>
+    <script>
+        function cut_text(){
+            document.getElementById("cut_copy_paste").innerHTML="User Pressed ( CTRL + X )";
+        }
+
+        function copy_text(){
+            document.getElementById("cut_copy_paste").innerHTML="User Pressed ( CTRL + C )";
+        }
+
+        function paste_text(){
+            document.getElementById("cut_copy_paste").innerHTML="User Pressed ( CTRL + V )";
+        }
+
+    </script>
+</head>
+<body>
+    <h1> Cut Copy Paste  </h1>
+    
+
+    <h3 id="cut_copy_paste"></h3>
+    <textarea   cols="40" rows="0" oncut="cut_text()" oncopy="copy_text()" onpaste=paste_text()></textarea>
+    
+    
+</body>
+</html>

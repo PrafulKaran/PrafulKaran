@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mouse Click Event </title>
+
+    <script>
+        function mouse_cursor_upon_box(){
+            document.getElementById("mouseup").style.backgroundColor="yellow";
+        }
+
+        function mouse_cursor_outside_box(){
+            document.getElementById("mouseup").style.backgroundColor="red";
+        }
+
+        
+
+    </script>
+</head>
+<body>
+    <h1>Mouse  Click Event  </h1>
+    
+
+    <textarea  id ="mouseup" cols="180" rows="10" onmouseup="mouse_cursor_upon_box()" onmousemove="mouse_cursor_outside_box()"></textarea>
+
+    
+</body>
+</html>

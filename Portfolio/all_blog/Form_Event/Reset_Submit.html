@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reset And Submit Event</title>
+
+    <script>
+         function formreset()
+        {
+            alert("form data reset");
+        }
+
+        function formsubmit()
+        {
+            alert("Check the data");
+        }
+    </script>
+</head>
+<body>
+    <form onsubmit="formsubmit()" onreset="formreset()">
+
+
+
+        
+        Email<input type="email" placeholder="enter your email"/><br><br>
+
+        Password: <input type="password" /><br><br>
+
+
+        <input type="submit" value="submit" />
+
+        <input type="reset" value="Clear/Reset" />
+
+    </form>
+</body>
+</html>

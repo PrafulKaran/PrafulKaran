@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mouse Over & Out </title>
+    <script>
+        function myover(){
+            document.getElementById("over_out").style.backgroundColor="red";
+        }
+
+        function myout(){
+            document.getElementById("over_out").style.backgroundColor="green";
+        }
+
+    </script>
+</head>
+<body>
+    <h1>Mouse Over(Red) And Out(Green) Event</h1>
+    <textarea id="over_out" cols="180" rows="10" onmouseover="myover()" onmouseout="myout()"> </textarea>
+</body>
+</html>

@@ -1,0 +1,98 @@
+
+h1{
+    text-align: center;
+    /* background-color: rgb(138, 106, 133); */
+    background:linear-gradient(225deg, #a5ffff 0, #76ffff 25%, #0aeeef 50%, #00d3df 75%, #00bdd6 100%);
+    padding:10px;
+    color:rgb(58, 31, 70);
+    margin: 10px;
+    margin-top: 10px;
+}
+
+.career{
+    background: linear-gradient(to right, rgb(82, 111, 192) 0%, white 70%);
+    color: white;
+    padding: 05px;
+}
+.quali{
+    background: linear-gradient(to right, rgb(82, 111, 192) 0%, white 70%);
+    color: white;
+    padding: 05px;
+}
+.str{
+    background: linear-gradient(to right, rgb(82, 111, 192) 0%, white 70%);
+    color: white;
+    padding: 05px;
+}
+.pd{
+    background: linear-gradient(to right, rgb(82, 111, 192) 0%, white 70%);
+    color: white;
+    padding: 05px;
+}
+p{
+    border: 2px solid green;
+
+}
+.picture{
+    width: 250px;
+    position:absolute;
+    right:100px;
+    top: 95px;
+
+}
+#pf{
+    width: 40px;
+    height: 50px;
+    position: relative;
+    top: 15px;
+}
+#email{
+    width: 50px;
+    height: 60px;
+    position: relative;
+    top: -10px;
+    left:-8px;
+}
+#emailtext{
+    position: absolute;
+    left:50px;
+    top:240px;
+    border:0px solid white;
+    /* background-color: red; */
+    font-weight: bold;
+    font-size: medium;
+}
+#locat{
+    width: 30px;
+    height: 40px;
+    position: relative;
+    top: 7px;
+    
+}
+
+#addtext{
+    position: absolute;
+    left:50px;
+    top:170px;
+    /* background-color: red; */
+    border:0px solid white;
+    font-weight: bold;
+    font-size: medium;
+}
+#call{
+    width: 50px;
+    height: 60px;
+    position: relative;
+    top: -10px;
+    left:-8px;
+
+}
+#calltext{
+    position: absolute;
+    left:50px;
+    top:330px;
+    /* background-color: red; */
+    border:0px solid white;
+    font-weight: bold;
+    font-size: medium;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Double Click Event</title>
+</head>
+<body>
+    <h1> Double Click Event </h1>
+    
+
+    <form>
+
+        <input type="button" id="loginBtn" value="Login" style="width: 70%; padding:50px;"/>
+
+    </form>
+
+
+    <script>
+        var loginBtn = document.getElementById("loginBtn");
+
+        loginBtn.addEventListener("dblclick", login1);
+
+        function login1() {
+            document.getElementById("loginBtn").style.backgroundColor = "Yellow";
+        }
+
+
+    </script>
+</body>
+</html>
